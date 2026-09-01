@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="John Company Construction Kenya — residential, commercial, infrastructure and design-build services.">
+  <meta name="theme-color" content="#062a52">
+  <title>John Company Construction Kenya | Build • Innovate • Deliver</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#062a52;--navy2:#0b3d73;--gold:#e9ae39;--ink:#10233d;--light:#f6f8fb;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+    a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+    .topbar{background:#041d39;color:#fff;font-size:.9rem;padding:9px 0}.topbar .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid #e7edf4;backdrop-filter:blur(10px)}
+    nav{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}
+    .brand-mark{width:44px;height:44px;border:2px solid var(--gold);clip-path:polygon(50% 0,100% 22%,100% 100%,0 100%,0 22%);display:grid;place-items:center;font-size:20px}
+    .brand span{display:block}.brand small{font-size:10px;letter-spacing:2px;color:#65758a}
+    .navlinks{display:flex;gap:28px;align-items:center;font-weight:600;font-size:.92rem}.navlinks a:hover{color:#c88c1e}
+    .cta{background:var(--gold);color:#172b45!important;padding:11px 18px;border-radius:8px;font-weight:800}
+    .menu{display:none;border:0;background:none;font-size:28px;color:var(--navy)}
+    .hero{background:linear-gradient(135deg,#f8fafc 0%,#fff 45%,#eef4fa 100%);padding:70px 0 60px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+    .eyebrow{display:inline-block;background:#eaf1f8;color:var(--navy);font-weight:800;letter-spacing:1.5px;padding:8px 12px;border-radius:99px;font-size:.78rem}
+    h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;margin:20px 0 18px;color:var(--navy);letter-spacing:-2px}
+    h1 b{color:#d99a26}.hero p{font-size:1.08rem;color:#56677c;max-width:580px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border-radius:8px;font-weight:800;border:2px solid var(--navy);transition:.2s}
+    .btn.primary{background:var(--navy);color:#fff}.btn.secondary{background:#fff}.btn:hover{transform:translateY(-2px)}
+    .hero-art{position:relative}.hero-art img{width:100%;display:block;border-radius:18px;box-shadow:0 25px 65px rgba(6,42,82,.2)}
+    .badge{position:absolute;left:-20px;bottom:25px;background:#fff;padding:17px 20px;border-radius:12px;box-shadow:0 12px 35px rgba(0,0,0,.14);font-weight:800;color:var(--navy)}
+    section{padding:85px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 45px}.section-head h2{font-size:2.3rem;line-height:1.1;margin:0 0 12px;color:var(--navy)}.section-head p{color:#66778b}
+    .services{background:var(--light)}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid #e5ebf2;border-radius:14px;padding:25px;transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:0 14px 35px rgba(6,42,82,.1)}
+    .icon{width:52px;height:52px;border-radius:12px;background:#edf4fb;color:var(--navy);display:grid;place-items:center;font-size:25px}.card h3{margin:18px 0 8px;color:var(--navy);font-size:1.1rem}.card p{margin:0;color:#68798c;font-size:.92rem}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-photo{border-radius:18px;overflow:hidden}.about-photo img{width:100%;display:block}
+    .ticks{display:grid;gap:14px;margin:25px 0}.tick{display:flex;gap:12px;align-items:flex-start}.tick strong{color:var(--navy)}
+    .contact{background:var(--navy);color:#fff}.contact .section-head h2{color:#fff}.contact .section-head p{color:#c7d5e4}
+    .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px}.contact-info{display:grid;gap:15px}.contact-item{background:rgba(255,255,255,.08);padding:18px;border-radius:12px}.contact-item small{display:block;color:#aebfd2;margin-bottom:3px}.contact-item a{font-weight:700}
+    form{background:#fff;padding:28px;border-radius:16px;color:var(--ink);display:grid;gap:14px}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-weight:700;font-size:.85rem}input,textarea,select{width:100%;margin-top:6px;border:1px solid #d6e0ea;border-radius:8px;padding:13px;font:inherit}textarea{min-height:120px;resize:vertical}.form-btn{border:0;cursor:pointer;background:var(--gold);color:#172b45;font-weight:800;padding:14px;border-radius:8px;font-size:1rem}
+    footer{background:#041d39;color:#c4d0dd;padding:25px 0}.footer-flex{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-flex strong{color:#fff}
+    .float-wa{position:fixed;right:18px;bottom:18px;z-index:60;background:#19a85a;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:26px;box-shadow:0 8px 25px rgba(0,0,0,.25)}
+    #status{display:none;padding:12px;background:#edf8f0;color:#166534;border-radius:8px;font-weight:600}
+    @media(max-width:850px){.navlinks{display:none;position:absolute;top:74px;left:0;right:0;background:#fff;padding:20px;box-shadow:0 10px 20px rgba(0,0,0,.08);flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.menu{display:block}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.hero{padding-top:45px}.badge{left:12px}}
+    @media(max-width:520px){.cards{grid-template-columns:1fr}.row{grid-template-columns:1fr}.topbar .container{justify-content:center}.brand small{display:none}section{padding:65px 0}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>📍 Nairobi, Kenya</span><span>📞 <a href="tel:+254711255738">0711 255 738</a> &nbsp; • &nbsp; ✉ <a href="mailto:info@johncompany.co.ke">info@johncompany.co.ke</a></span></div></div>
+  <header><div class="container"><nav>
+    <a class="brand" href="#home"><div class="brand-mark">JC</div><div><span>JOHN COMPANY</span><small>BUILD • INNOVATE • DELIVER</small></div></a>
+    <button class="menu" aria-label="Open menu" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+    <div class="navlinks">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact" class="cta">Get a Quote</a>
+    </div>
+  </nav></div></header>
+
+  <main id="home">
+    <section class="hero"><div class="container hero-grid">
+      <div>
+        <span class="eyebrow">CONSTRUCTION • KENYA</span>
+        <h1>BUILDING <b>EXCELLENCE.</b><br>SHAPING FUTURES.</h1>
+        <p>Quality construction solutions built around reliability, innovation and client satisfaction — from residential projects to commercial and infrastructure works.</p>
+        <div class="buttons"><a class="btn primary" href="#contact">Request a Quote</a><a class="btn secondary" href="https://wa.me/254711255738?text=Hello%20John%20Company%2C%20I%20would%20like%20a%20construction%20quote." target="_blank" rel="noopener">WhatsApp Us</a></div>
+      </div>
+      <div class="hero-art"><img src="flyer.png" alt="John Company Construction Kenya construction project"><div class="badge">✓ Quality Assured &nbsp; • &nbsp; Client Focused</div></div>
+    </div></section>
+
+    <section class="services" id="services"><div class="container">
+      <div class="section-head"><h2>Our Services</h2><p>Professional construction services designed to take your project from concept to completion.</p></div>
+      <div class="cards">
+        <article class="card"><div class="icon">🏠</div><h3>Residential Construction</h3><p>Homes, extensions and residential developments delivered with attention to quality and detail.</p></article>
+        <article class="card"><div class="icon">🏢</div><h3>Commercial Construction</h3><p>Functional commercial spaces with dependable workmanship and project coordination.</p></article>
+        <article class="card"><div class="icon">🌉</div><h3>Infrastructure Projects</h3><p>Construction support for infrastructure and civil works with safety and quality in mind.</p></article>
+        <article class="card"><div class="icon">📐</div><h3>Design-Build Services</h3><p>Integrated design and construction support for a smoother project journey.</p></article>
+      </div>
+    </div></section>
+
+    <section id="about"><div class="container about-grid">
+      <div class="about-photo"><img src="flyer.png" alt="Construction work by John Company"></div>
+      <div><span class="eyebrow">WHY JOHN COMPANY</span><h2>Built on quality. Driven by trust.</h2><p>We aim to deliver practical construction solutions that meet project requirements while keeping communication, workmanship and client satisfaction at the centre of every job.</p>
+      <div class="ticks"><div class="tick">✓ <span><strong>Quality assured</strong><br>Careful attention to workmanship and project standards.</span></div><div class="tick">✓ <span><strong>Innovative solutions</strong><br>Practical approaches that help projects move forward.</span></div><div class="tick">✓ <span><strong>Client focused</strong><br>Clear communication from the first conversation to handover.</span></div></div>
+      <a class="btn primary" href="#contact">Talk About Your Project</a></div>
+    </div></section>
+
+    <section class="contact" id="contact"><div class="container">
+      <div class="section-head"><h2>Let's Build Together</h2><p>Tell us what you are planning and we'll get back to you.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><small>PHONE</small><a href="tel:+254711255738">0711 255 738</a></div>
+          <div class="contact-item"><small>WHATSAPP</small><a href="https://wa.me/254711255738" target="_blank" rel="noopener">Chat with us on WhatsApp</a></div>
+          <div class="contact-item"><small>EMAIL</small><a href="mailto:info@johncompany.co.ke">info@johncompany.co.ke</a></div>
+          <div class="contact-item"><small>LOCATION</small><span>Nairobi, Kenya</span></div>
+        </div>
+        <form id="quoteForm">
+          <div class="row"><label>Name<input name="name" required placeholder="Your name"></label><label>Phone<input name="phone" required type="tel" placeholder="0711 255 738"></label></div>
+          <div class="row"><label>Email<input name="email" type="email" placeholder="you@example.com"></label><label>Service<select name="service"><option>Residential Construction</option><option>Commercial Construction</option><option>Infrastructure Projects</option><option>Design-Build Services</option><option>Other</option></select></label></div>
+          <label>Project details<textarea name="details" required placeholder="Tell us briefly about your project..."></textarea></label>
+          <button class="form-btn" type="submit">Send Enquiry via WhatsApp</button>
+          <div id="status">Opening WhatsApp with your enquiry…</div>
+        </form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-flex"><span>© <span id="year"></span> <strong>John Company Construction Kenya</strong></span><span>Build • Innovate • Deliver</span></div></footer>
+  <a class="float-wa" href="https://wa.me/254711255738" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.navlinks').classList.remove('open')));
+    document.getElementById('quoteForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const d = new FormData(this);
+      const msg = `Hello John Company Construction Kenya,%0A%0AName: ${encodeURIComponent(d.get('name'))}%0APhone: ${encodeURIComponent(d.get('phone'))}%0AEmail: ${encodeURIComponent(d.get('email')||'Not provided')}%0AService: ${encodeURIComponent(d.get('service'))}%0AProject details: ${encodeURIComponent(d.get('details'))}`;
+      document.getElementById('status').style.display='block';
+      window.open(`https://wa.me/254711255738?text=${msg}`,'_blank');
+    });
+  </script>
+</body>
+</html>
